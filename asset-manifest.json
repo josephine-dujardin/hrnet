@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hrnet/static/css/main.51e60471.css",
+    "main.js": "/hrnet/static/js/main.8cf862e7.js",
+    "static/media/logo.png": "/hrnet/static/media/logo.581328e2725e711fa88e.png",
+    "index.html": "/hrnet/index.html",
+    "main.51e60471.css.map": "/hrnet/static/css/main.51e60471.css.map",
+    "main.8cf862e7.js.map": "/hrnet/static/js/main.8cf862e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e60471.css",
+    "static/js/main.8cf862e7.js"
+  ]
+}
