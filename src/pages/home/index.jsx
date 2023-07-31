@@ -87,7 +87,7 @@ const Home = () => {
 
     return (
         <>
-            <Header logo={logo} title={"icon made by yaicon"} iconlink={"https://www.flaticon.com/authors/yaicon"} link={"/liste"} icon={group} text={"View Current Employees"} />
+            <Header logo={logo} title={"icon made by yaicon"} iconlink={"https://www.flaticon.com/authors/yaicon"} link={"hrnet/liste"} icon={group} text={"View Current Employees"} />
             <div className="container">
                 <h2 className="home-title">Create Employee</h2>
                 {/* Form to create an employee */}

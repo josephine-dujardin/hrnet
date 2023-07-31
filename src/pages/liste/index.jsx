@@ -60,7 +60,7 @@ const Liste = () => {
     return (
         <>
             {/* Header component with logo, title, icon link, and text */}
-            <Header logo={logo} title={"icon made by Icon mania"} iconlink={"https://www.flaticon.com/authors/icon-mania"} link={"/"} icon={addUser} text={"Create new Employee"} />
+            <Header logo={logo} title={"icon made by Icon mania"} iconlink={"https://www.flaticon.com/authors/icon-mania"} link={"/hrnet"} icon={addUser} text={"Create new Employee"} />
             <div className="container-list">
                 <h2 className="title">Current Employees</h2>
                 <div className="main">
