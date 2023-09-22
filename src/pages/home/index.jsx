@@ -3,7 +3,7 @@ import Header from '../../components/header';
 import logo from "../../assets/logo.png";
 import group from "../../assets/group.png";
 import React, { useState } from 'react';
-import Modal from "../../components/modal";
+import { Modal } from '@josephine-dujardin/hrnet_modal';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import optionsData from '../../data/optionsData.json';
