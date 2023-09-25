@@ -60,7 +60,7 @@ label {
     margin-bottom: 20px;
 }
 
-.save {
+.modal-btn {
     border: none;
     background-color: #f1f5e5;
     margin-top: 20px;
@@ -69,7 +69,7 @@ label {
     cursor: pointer;
 }
 
-.save:hover {
+.modal-btn:hover {
     background-color: #dce4c5;
 }
 
