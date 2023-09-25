@@ -20,6 +20,7 @@ const Home = () => {
     const [city, setCity] = useState('');
     const [state, setState] = useState('');
     const [zipCode, setZipCode] = useState('');
+    const [openModal, setOpenModal] = useState(false)
 
     // Form validation function
     const validateForm = () => {
@@ -77,12 +78,7 @@ const Home = () => {
         e.preventDefault();
         saveEmployee();
         resetForm();
-    };
-
-    // Modal submit handler
-    const handleModalSubmit = () => {
-        saveEmployee();
-        resetForm();
+        setOpenModal(true);
     };
 
     return (
@@ -164,15 +160,15 @@ const Home = () => {
                         ))}
                     </select>
                     {/* Modal component with form data passed as props */}
+                    <div className="modal-container">
+                        <button className="modal-btn" type="submit">
+                            Save
+                        </button>
+                    </div>
                     <Modal
-                        firstName={firstName}
-                        lastName={lastName}
-                        department={department}
-                        street={street}
-                        city={city}
-                        state={state}
-                        zipCode={zipCode}
-                        onSubmit={handleModalSubmit}
+                        isOpen={openModal}
+                        openClose={() => setOpenModal(!openModal)}
+                        content={"Employee created"}
                     />
                 </form>
             </div>
